@@ -8,7 +8,7 @@ A high-performance backend microservice developed in **Java Spring Boot**, desig
 ## Architecture
 - **Stateless Tokens**: Fully decoupled architecture relying on signed JWTs, allowing horizontal scaling without session stickiness.
 - **Spring Security**: Implemented deep integration with Spring Security filters to protect REST API endpoints.
-- **High Throughput**: Load tested to support over 3,000 concurrent user logins per minute with <50ms response latency.
+- **High Throughput**: Load tested to support over 3,000 concurrent user logins per minute with &lt;50ms response latency.
 
 ## Security Practices
 - Passwords are never stored in plain text; utilized BCrypt hashing with randomized salts.
