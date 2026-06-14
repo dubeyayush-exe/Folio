@@ -36,8 +36,9 @@ const components = {
   img: (props: any) => <img className="rounded-xl border border-white/10 my-8 w-full object-cover max-h-[500px]" {...props} />,
 };
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
-  const content = getProjectContent(params.slug);
+export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
+  const content = getProjectContent(resolvedParams.slug);
 
   if (!content) {
     return (
