@@ -53,9 +53,9 @@ export default function Contact() {
           </motion.a>
 
           <div className="flex justify-center space-x-8">
-            <SocialLink href="https://github.com/sample" icon={<GithubIcon size={24} />} label="GitHub" />
-            <SocialLink href="https://linkedin.com/in/sample" icon={<LinkedinIcon size={24} />} label="LinkedIn" />
-            <SocialLink href="https://twitter.com/sample" icon={<TwitterIcon size={24} />} label="Twitter" />
+            <SocialLink href="https://github.com/dubeyayush-exe" icon={<GithubIcon size={24} />} label="GitHub" />
+            <SocialLink href="https://linkedin.com/in/dubeyayush-exe" icon={<LinkedinIcon size={24} />} label="LinkedIn" />
+            <SocialLink href="https://twitter.com/sample" icon={<EmailIcon size={24} />} label="Twitter" />
           </div>
         </motion.div>
 
