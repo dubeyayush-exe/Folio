@@ -110,7 +110,7 @@ export default function Hero() {
           transition={{ duration: 1.2, ease: "easeOut" }}
           className="font-serif text-5xl md:text-8xl lg:text-9xl font-bold text-white tracking-tighter uppercase leading-[0.9]"
         >
-          AI/ML <br/> Portfolio
+          Trained on <br/> <span className="text-deep-gold italic">Ambition</span>
         </motion.h1>
         
         <motion.div 
